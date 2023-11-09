@@ -43,10 +43,6 @@ def get_songs(db: Session, limit: int = 100):
     return db.query(models.Song).limit(limit).all()
 
 
-def get_song_by_name(db: Session, name: str):
-    return db.query(models.Song).filter(models.Song.name == name).first
-
-
 def create_song(db: Session, song: schemas.SongCreate, album_id: int):
     db_song = models.Song(
         **song.dict(),

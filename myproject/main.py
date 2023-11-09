@@ -61,15 +61,6 @@ def read_songs(limit: int = 100, db: Session = Depends(get_db_session)):
     return crud.get_songs(db, limit=limit)
 
 
-# GET /songs/{name}
-@app.get("/songs/{name}", response_model=schemas.Song)
-def read_song_by_name(name: str, db: Session = Depends(get_db_session)):
-    db_song_name = crud.get_song_by_name(db, name=name)
-    if db_song_name is None:
-        raise HTTPException(status_code=404, detail="Song not found")
-    return
-
-
 # POST /bands/{band_id}/albums/{album_id}/songs
 @app.post("/songs", response_model=schemas.Song)
 def create_song(album_id: int, song: schemas.SongCreate,  db: Session = Depends(get_db_session)):
