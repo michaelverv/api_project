@@ -11,4 +11,4 @@ Uitleg API
 screens
 
 ### OpenAPI docs
-![docs](https://github.com/michaelverv/api_project/assets/113921262/7ecbce61-c3d4-4a34-b5c4-0fde70700926)
+![docs](https://github.com/michaelverv/api_project/assets/113921262/b2ca89c1-7d7f-48e4-a988-12f3e8a78f6d)
