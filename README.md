@@ -4,8 +4,8 @@
 Voor het project heb ik als thema **bands** en daarvan **albums** die **songs** bevatten.
 
 ## API
-Link API: 
-Uitleg API
+Link API: https://api-project-michaelverv.cloud.okteto.net/
+Uitleg API:
 
 ## API werking met Postman
 ### POST /bands
@@ -13,11 +13,11 @@ Uitleg API
 ![image](https://github.com/michaelverv/api_project/assets/113921262/8f89ce76-0361-48c5-bb60-d91e2c861dc4)
 
 ### GET /bands
-
+Laat alle bands met hun albums en nummers zien
 ![image](https://github.com/michaelverv/api_project/assets/113921262/7e532885-9ffb-4734-9a11-8912b89a9b18)
 
 ### GET /bands/{band_id}
-
+Laat een specifieke band zien en daarvan de albums en nummers
 ![image](https://github.com/michaelverv/api_project/assets/113921262/6040ee15-1545-4e04-b833-efe6d3a629f4)
 
 ### POST /bands/{band_id}/albums
