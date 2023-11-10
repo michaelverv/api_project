@@ -7,26 +7,29 @@ Voor het project heb ik als thema **bands** en daarvan **albums** die **songs** 
 Link API: 
 Uitleg API
 
-### API werking met Postman
-POST request /bands
+## API werking met Postman
+### POST /bands
+
 ![image](https://github.com/michaelverv/api_project/assets/113921262/8f89ce76-0361-48c5-bb60-d91e2c861dc4)
 
-GET request /bands
+### GET /bands
+
 ![image](https://github.com/michaelverv/api_project/assets/113921262/7e532885-9ffb-4734-9a11-8912b89a9b18)
 
-GET request /bands/{band_id}
+### GET /bands/{band_id}
 
-POST request /bands/{band_it}/albums
+### POST /bands/{band_it}/albums
 
-GET requests /albums
+### GET /albums
 
-POST request /songs
+### POST /songs
 
-GET request /songs
+### GET /songs
 
-DELETE request /bands/{band_it}/delete
+### DELETE /bands/{band_it}/delete
 
-DELETE requests /delete
+### DELETE /delete
 
-### OpenAPI docs
+## OpenAPI docs
+
 ![docs](https://github.com/michaelverv/api_project/assets/113921262/b2ca89c1-7d7f-48e4-a988-12f3e8a78f6d)
