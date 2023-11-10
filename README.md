@@ -10,30 +10,37 @@ Uitleg API:
 ## API werking met Postman
 ### POST /bands
 
+Voor het aanmaken van een band en deze naar de database te sturen
 ![image](https://github.com/michaelverv/api_project/assets/113921262/8f89ce76-0361-48c5-bb60-d91e2c861dc4)
 
 ### GET /bands
+
 Laat alle bands met hun albums en nummers zien
 ![image](https://github.com/michaelverv/api_project/assets/113921262/7e532885-9ffb-4734-9a11-8912b89a9b18)
 
 ### GET /bands/{band_id}
+
 Laat een specifieke band zien en daarvan de albums en nummers
 ![image](https://github.com/michaelverv/api_project/assets/113921262/6040ee15-1545-4e04-b833-efe6d3a629f4)
 
 ### POST /bands/{band_id}/albums
 
+Aanmaken van een album die bij een band behoort
 ![image](https://github.com/michaelverv/api_project/assets/113921262/16b08bff-850f-48e1-bd82-81af3f38bb28)
 
 ### GET /albums
 
+Laat alle albums zien
 ![image](https://github.com/michaelverv/api_project/assets/113921262/4bfb6bc8-bd37-4e68-8431-9d9140c9c7e0)
 
 ### POST /songs
 
+Aanmaken van een song, een album id kan gelinkt worden aan een song maar een song kan ook bestaan zonder album. Voor een POST request met een album id moet het pad: "/songs?album_id=n" zijn
 ![image](https://github.com/michaelverv/api_project/assets/113921262/72f7ef69-bc47-4d69-90d2-fdafb4864d85)
 
 ### GET /songs
 
+Laat alle songs zien
 ![image](https://github.com/michaelverv/api_project/assets/113921262/b7dbaeb5-872e-4ae1-b01e-8dfa3647b337)
 
 ### DELETE /bands/{band_it}/delete
