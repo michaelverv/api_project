@@ -35,7 +35,7 @@ def create_band(band: schemas.BandCreate, db: Session = Depends(get_db_session))
 
 
 # GET /bands/{band_id}
-@app.get("/bands/{id}", response_model=schemas.Band)
+@app.get("/bands/{band_id}", response_model=schemas.Band)
 def read_band(band_id: int, db: Session = Depends(get_db_session)):
     db_band = crud.get_band(db, band_id=band_id)
     if db_band is None:
