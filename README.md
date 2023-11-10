@@ -20,7 +20,7 @@ Uitleg API
 
 ![image](https://github.com/michaelverv/api_project/assets/113921262/6040ee15-1545-4e04-b833-efe6d3a629f4)
 
-### POST /bands/{band_it}/albums
+### POST /bands/{band_id}/albums
 
 ![image](https://github.com/michaelverv/api_project/assets/113921262/16b08bff-850f-48e1-bd82-81af3f38bb28)
 
