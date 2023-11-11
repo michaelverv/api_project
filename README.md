@@ -72,4 +72,5 @@ Bij een nieuwe GET /bands valt het op dat er niks meer in de database is opgesla
 
 ## OpenAPI docs
 Alle endpoints van de API
+https://api-project-michaelverv.cloud.okteto.net/docs
 ![docs](https://github.com/michaelverv/api_project/assets/113921262/b2ca89c1-7d7f-48e4-a988-12f3e8a78f6d)
