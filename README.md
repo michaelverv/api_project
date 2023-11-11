@@ -4,8 +4,8 @@
 Voor het project heb ik als thema **bands** en daarvan **albums** die **songs** bevatten.
 
 ## API
-Link API: https://api-project-michaelverv.cloud.okteto.net/
-Uitleg API:
+### Link API: https://api-project-michaelverv.cloud.okteto.net/
+### Uitleg API:
 
 ## API werking met Postman
 ### POST /bands
@@ -45,6 +45,9 @@ Laat alle songs zien
 
 ### DELETE /bands/{band_it}/delete
 
+Het verwijderen van een specifieke band op basis van de band id
+
+Bij een GET /bands is er te zien dat 
 ![image](https://github.com/michaelverv/api_project/assets/113921262/21f930fb-68ee-4de2-90ec-6fa78e903c08)
 
 ![image](https://github.com/michaelverv/api_project/assets/113921262/a6265b46-3fd3-4558-8b51-a92a769396c7)
