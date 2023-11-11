@@ -7,6 +7,7 @@ Een band kan meerdere albums hebben en een album kan meerdere songs bevatten. Ee
 ## API
 ### Link API: https://api-project-michaelverv.cloud.okteto.net/
 ### Uitleg API:
+Met deze API is het mogelijk om een collectie bij te houden van je favoriete bands, albums en songs. Door gebruik te maken van alle endpoints hieronder, is dit gebruiksvriendelijk en gemakkelijk te doen
 
 ## API werking met Postman
 ### POST /bands
