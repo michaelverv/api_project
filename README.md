@@ -1,7 +1,8 @@
 # API Project Michael Vervoort 1 CCS 01
 
 ## Gekozen thema
-Voor het project heb ik als thema **bands** en daarvan **albums** die **songs** bevatten.
+Voor het project heb ik als thema `muziek`. Mijn database bestaat uit 3 entiteiten: bands, albums en songs.
+Een band kan meerdere albums hebben en een album kan meerdere songs bevatten. Een song kan ook gemaakt worden zonder een album.
 
 ## API
 ### Link API: https://api-project-michaelverv.cloud.okteto.net/
